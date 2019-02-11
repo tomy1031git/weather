@@ -1,0 +1,569 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+body,html{
+	background-color: #f7fcfe;
+}
+
+a{
+	color: #;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+
+i{
+	margin-right: 10px;
+}
+
+
+/* header */
+header{}
+
+
+/* main */
+/* first_view */
+.first_view{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/bg_02.png");
+	background-repeat: no-repeat;
+	background-size:100% auto;/*この場合は高さが自動設定*/
+	background-size: cover;
+}
+
+.logo{
+	width: 200px;
+	height: auto;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+.mv_box{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.mv_box_01{
+	width: 150px;
+	height: auto;
+	margin-left: 2%;
+	margin-right: 4%;
+	margin-top: 22%;
+}
+
+.mv_box_01 img{
+	width: 100%;
+	height: auto;
+	filter: drop-shadow(0 0 5px white);
+}
+
+.mv_box_02{
+	position: relative;
+	width: 50%;
+}
+
+.mv_sentence{
+	position: relative;
+	font-weight: bold;
+	margin-top: 40%;
+}
+
+.mv_sentence_01{
+	font-size: 24px;
+
+	text-shadow: 2px  2px 3px white,
+             2px  2px 3px white,
+             2px -2px 3px white,
+             -2px -2px 3px white;
+
+}
+
+.mv_sentence_02{
+	font-size: 26px;
+	margin-top: 10%;
+	margin-left: 5%;
+
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+.moji_01{
+	position: absolute;
+	width: 320px;
+	top: 0%;
+	left: 0%;
+	filter: drop-shadow(0 0 2px black);
+
+}
+
+.moji_02{
+	position: absolute;
+	width: 320px;
+	top: 60%;
+	left: 0;
+	margin-top: 16%;
+	filter: drop-shadow(0 0 2px black);
+
+}
+
+.moji_03{
+	position: absolute;
+	width: 320px;
+	top: 65%;
+	left: 60%;
+	margin-top: 17%;
+	filter: drop-shadow(0 0 2px black);
+
+}
+
+.moji_01 img,.moji_02 img,.moij_03 img{
+	width: 100%;
+	height: auto;
+}
+
+.dl{
+	display: flex;
+	margin-top: 80%;
+}
+
+.ios{
+	width: 200px;
+	height: auto;
+	margin-right: 10%;
+}
+
+.ios img{
+	width: 100%;
+}
+
+.android{
+	width: 200px;
+	height: auto;
+}
+
+.android img{
+	width: 100%;
+}
+
+.mv_box_03{
+	width: 300px;
+	height: auto;
+	margin-top: 8%;
+	margin-left: 7%;
+}
+
+.mv_box_03 img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	filter: drop-shadow(0 0 20px white);
+}
+
+/* point */
+.point_box{
+	width: 100%;
+	text-align: center;
+}
+
+.point_box h1{
+	font-size: 24px;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 18%;
+	border-bottom: 5px solid #ffcc00;
+}
+
+.point_area{
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+.point01{
+	width: 30%;
+	border: 10px solid #99e1f9;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.point01 img{
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 12%;
+	margin-bottom: 2%;
+	border: 5px solid #2a3c64;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.point01_sen{
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 6%;
+	margin-bottom: 8%;
+	line-height: 30px;
+}
+
+.point02{
+	width: 30%;
+	border: 10px solid #99e1f9;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.point02 img{
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 12%;
+	margin-bottom: 2%;
+	border: 5px solid #2a3c64;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.point02_sen{
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 6%;
+	margin-bottom: 8%;
+	line-height: 30px;
+}
+
+.point03{
+	width: 30%;
+	border: 10px solid #99e1f9;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.point03 img{
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 12%;
+	margin-bottom: 2%;
+	border: 5px solid #2a3c64;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.point03_sen{
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 6%;
+	margin-bottom: 8%;
+	line-height: 30px;
+}
+
+/* 現在地 */
+.here{
+	position: relative;
+	display: flex;
+	background-color: #99e1f9;
+	width: 100%;
+}
+
+.here_sentence{
+	/* margin-left: 7.5%; */
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 12.5%;
+	z-index: 999;
+
+}
+
+.here_sentence h2{
+	font-size: 22px;
+	margin-bottom: 5%;
+
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+.here_sentence p{
+	font-size: 18px;
+	margin-left: 4%;
+	line-height: 30px;
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+.here_img{
+	width: 300px;
+	margin-right: 7.5%; 
+	margin-top: 5%;
+}
+
+.here_img img{
+	width: 100%;
+	height: auto;
+}
+
+
+/* テーマパーク */
+.park{
+	position: relative;
+	display: flex;
+	background-color: #f7fcfe;
+	width: 100%;
+}
+
+.park_img{
+	width: 300px;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.park_img img{
+	width: 100%;
+	height: auto;
+}
+
+.park_sentence{
+	/* margin-left: 7.5%; */
+	width: 40%;
+	margin-top: 15%;
+	margin-left: 12%;
+
+}
+
+.park_sentence h2{
+	font-size: 22px;
+	margin-bottom: 5%;
+
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+.park_sentence p{
+	font-size: 18px;
+	margin-left: 4%;
+	line-height: 30px;
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+/* 雨雲レーダー */
+.radar{
+	position: relative;
+	display: flex;
+	background-color: #99e1f9;
+	width: 100%;
+}
+
+.radar_sentence{
+	/* margin-left: 7.5%; */
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 15%;
+
+}
+
+.radar_sentence h2{
+	font-size: 22px;
+	margin-bottom: 5%;
+
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+.radar_sentence p{
+	font-size: 18px;
+	margin-left: 4%;
+	line-height: 30px;
+	text-shadow: 2px  2px 3px white,
+                 2px  2px 3px white,
+                 2px -2px 3px white,
+                 -2px -2px 3px white;
+}
+
+.radar_img{
+	width: 300px;
+	margin-right: 7.5%; 
+	margin-top: 5%;
+}
+
+.radar_img img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/* 波波 */
+.wave_wb{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-image: url("../images/wave01.png");
+	background-repeat: no-repeat;
+	background-size:100% auto;/*この場合は高さが自動設定*/
+	background-size: cover;
+}
+
+.wave_bw{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-image: url("../images/wave02.png");
+	background-repeat: no-repeat;
+	background-size:100% auto;/*この場合は高さが自動設定*/
+	background-size: cover;
+}
+/* イラスト */
+
+.arrow_right{
+	width: 300px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	z-index: 1;
+}
+
+.arrow_right img{
+	width: 100%;
+}
+
+.arrow_left{
+	width: 300px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	z-index: 1;
+}
+
+.arrow_left img{
+	width: 100%;
+}
+
+.shadow01{
+	position: absolute;
+	width: 300px;
+	top: 30%;
+	left: 0%;
+}
+
+.shadow01 img{
+	width: 100%;
+}
+
+.shadow02{
+	position: absolute;
+	width: 300px;
+	top: 30%;
+	left: 0%;
+}
+
+.shadow02 img{
+	width: 100%;
+}
+
+.shadow03{
+	position: absolute;
+	width: 300px;
+	top: 30%;
+	right: 0%;
+}
+
+.shadow03 img{
+	width: 100%;
+}
+
+
+
+
+/* footer */
+.footer{}
+
+.footer_icon{
+	width: 70px;
+	margin: 0 auto;
+}
+
+.footer_icon img{
+	width: 100%;
+	height: auto;
+}
+
+.footer_dl_tit{
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.footer_dl_tit p{}
+
+.footer_dl{
+	display: flex;
+	/* width: 30%; */
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+
+
+.footer_ios{
+	width: 200px;
+	height: auto;
+	margin-right: 5%;
+}
+
+.footer_ios img{
+	width: 100%;
+}
+
+.footer_google{
+	width: 200px;
+	height: auto;
+}
+
+.footer_google img{
+	width: 100%;
+}
+
+
+.copyright{
+	width: 100%;
+	font-size: 10px;
+	text-align: center;
+	color: #888;
+	margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
